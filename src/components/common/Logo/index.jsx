@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 import './style.css';
 const Logo=()=>{
     return(<div>
-            <p>Logo</p>
+<p>logo</p>
         </div>
 
     );
