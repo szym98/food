@@ -15,6 +15,7 @@ header{
     flex-direction: column;
 }
 .content-main{
+    height: max-content;
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -24,9 +25,11 @@ header{
 .content-main h1{
     font-size: 3rem;
     margin-bottom: 1.5rem;
+    margin-top: 2rem;
 
 }
 .content-main button{
+    height: max-content;
     background-color: black;
     color: #fff;
     width:200px;
@@ -40,7 +43,7 @@ header{
     border-bottom-left-radius: 25px;
     border-top-right-radius: 25px;
     cursor:pointer;
-    margin-top: 2.5rem;
+    margin-top: 8rem;
 }
 .content-main p{
     font-weight: 500;

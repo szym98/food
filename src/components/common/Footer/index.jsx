@@ -1,6 +1,6 @@
 import React from "react";
 import './style.css';
-import Logo from'../Logo'
+
 
 
 const Footer = () => {
@@ -10,7 +10,7 @@ const Footer = () => {
                 We're a team of Professional cooks who are excited about their food,
                 amazing skills in cooking.
             </p>
-            <Logo />
+
         </footer>
     );
 };

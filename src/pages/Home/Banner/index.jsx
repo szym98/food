@@ -9,8 +9,8 @@ const Banner = () => {
       <div className="header-content"></div>
         <Logo/>
         <div className="content-main">
-            <h1>Delicious food for your cravings</h1>
-            <p> We made fresh and healthy meals</p>
+            <h1>Delicious food for your cravings !</h1>
+            <p> Only the best quality farm-fresh ingredients make it into our meals before being packed and delivered fresh to you.</p>
             <button>View menu <i className='fas fa-long-arrow-alt-right'></i>
             </button>
 
