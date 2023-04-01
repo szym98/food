@@ -1,5 +1,6 @@
-import React from "react";
-import "./style.css";
+import React from 'react';
+import './style.css';
+import ButtonAddRemoveItem from '../../ButtonAddRemoveItem/index';
 const MenuItem =( {item}) => {
     const {id, name, info, price, img}=item
   return (
@@ -11,8 +12,9 @@ const MenuItem =( {item}) => {
           <small>{info}</small>
         </p>
         <div className="item-foot_desc">
-            <span className="item-foot_desc-price">${price}</span>
-            <button>Add +</button>
+            <span className="foot_desc-price">${price}</span>
+            <ButtonAddRemoveItem quantity={20}/>
+
         </div>
       </div>
     </div>
