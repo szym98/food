@@ -9,18 +9,18 @@ import {
 import Home from "./pages/Home";
 import Cart from "./pages/Cart";
 
-function App() {
+const App = () => {
   return (
     <div className="container">
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/cart" element={<Cart />} />
-          <Route path="*" element={<Navigate to="/" />} />
+          <Route path="/" element={<Navigate to="/" />} />
         </Routes>
       </Router>
     </div>
   );
-}
+};
 
 export default App;
