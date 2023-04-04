@@ -9,7 +9,7 @@ const EmptyCart = () => {
         <div className="emptyCart">
             <img src={emptyCartImg} alt="empty" />
             <button onClick={() => navigate("/")}>
-                <i className="fas fa-long-arrow-alt-left"></i> Return to Shop
+                <i className="fas fa-long-arrow-alt-left"></i> Return to The Shop
             </button>
         </div>
     );
